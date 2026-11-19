@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep task operations on the browser Data API with owner-scoped row policies, so access is enforced even outside the UI.
+- Keep account entry public and the task workspace under the client-only authenticated layout, because session storage is browser-local.

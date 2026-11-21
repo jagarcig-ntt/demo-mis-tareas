@@ -207,7 +207,8 @@ body { font-family: var(--font-interface); }
 .password-field input { padding-right: 45px; }
 .password-field button { position: absolute; right: 6px; top: 6px; }
 .forgot-link { justify-self: end; padding-inline: 0; margin-top: 3px; }
-.form-submit { width: 100%; height: 48px; margin-top: 16px; font-weight: 700; box-shadow: none; }
+.form-submit { width: 100%; height: 48px; margin-top: 16px; font-weight: 700; box-shadow: none; background: var(--destructive); color: var(--destructive-foreground); }
+.form-submit:hover { background: color-mix(in oklab, var(--destructive) 88%, var(--foreground)); }
 .form-error, .form-notice { padding: 10px 12px; margin-block: 10px; border-radius: var(--radius); font-size: 14px; overflow-wrap: anywhere; }
 .form-error { color: var(--destructive); background: color-mix(in oklab, var(--destructive) 7%, var(--card)); }
 .form-notice { color: var(--primary); background: var(--secondary); }
